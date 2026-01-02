@@ -1,0 +1,34 @@
+/* trending.css */
+.trending-page {
+    display: flex;
+    flex-direction: column; /* Arrange columns vertically */
+    align-items: center; /* Center horizontally */
+    padding: 20px; /* Add padding for better appearance */
+    box-sizing: border-box; /* Include padding in width calculations */
+  }
+  
+  .column {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex: 1 0 33%;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center; /* Center the content within each column */
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    text-align: center;
+  }
